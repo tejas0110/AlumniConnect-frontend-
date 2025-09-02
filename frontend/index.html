@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AlumniConnect - Digital Alumni Management Platform</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <i class="fas fa-graduation-cap"></i>
+                <span>AlumniConnect</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#features" class="nav-link">Features</a></li>
+                <li><a href="#benefits" class="nav-link">Benefits</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+                <li class="search-container">
+                    <div class="search-bar">
+                        <input type="text" placeholder="Search alumni, events..." id="searchInput">
+                        <button class="search-btn" id="searchBtn"><i class="fas fa-search"></i></button>
+                    </div>
+                </li>
+                <li><a href="login.html" class="nav-link btn-login">Login</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">Digital Platform for Centralized Alumni Data Management</h1>
+                <p class="hero-subtitle">Strengthen alumni engagement, build lasting relationships, and unlock opportunities through our comprehensive digital platform.</p>
+                <div class="hero-buttons">
+                    <button class="btn btn-primary">Get Started</button>
+                    <button class="btn btn-secondary">Learn More</button>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="floating-card card-1">
+                    <i class="fas fa-users"></i>
+                    <span>Alumni Network</span>
+                </div>
+                <div class="floating-card card-2">
+                    <i class="fas fa-handshake"></i>
+                    <span>Mentorship</span>
+                </div>
+                <div class="floating-card card-3">
+                    <i class="fas fa-briefcase"></i>
+                    <span>Career Growth</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Problem Statement -->
+    <section class="problem-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>The Challenge We're Solving</h2>
+                <p>Most educational institutions lack reliable systems to manage alumni relationships</p>
+            </div>
+            <div class="problem-grid">
+                <div class="problem-card">
+                    <i class="fas fa-database"></i>
+                    <h3>Scattered Data</h3>
+                    <p>Alumni information spread across multiple platforms or completely lost after graduation</p>
+                </div>
+                <div class="problem-card">
+                    <i class="fas fa-comments"></i>
+                    <h3>Limited Communication</h3>
+                    <p>Reliance on informal WhatsApp groups and outdated mailing lists</p>
+                </div>
+                <div class="problem-card">
+                    <i class="fas fa-disconnect"></i>
+                    <h3>Missed Opportunities</h3>
+                    <p>Lost potential for mentoring, internships, events, and fundraising initiatives</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Platform Features</h2>
+                <p>Comprehensive tools for effective alumni management</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <h3>Centralized Database</h3>
+                    <p>Store and manage all alumni data in one secure, accessible platform</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-network-wired"></i>
+                    </div>
+                    <h3>Networking Hub</h3>
+                    <p>Connect alumni with current students and fellow graduates</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-calendar-alt"></i>
+                    </div>
+                    <h3>Event Management</h3>
+                    <p>Organize and promote alumni events with integrated RSVP system</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Career Tracking</h3>
+                    <p>Monitor alumni career progress and professional achievements</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <h3>Mentorship Program</h3>
+                    <p>Facilitate mentoring relationships between alumni and students</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Secure Platform</h3>
+                    <p>Enterprise-grade security for sensitive alumni information</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section id="benefits" class="benefits-section">
+        <div class="container">
+            <div class="benefits-content">
+                <div class="benefits-text">
+                    <h2>Why This Matters</h2>
+                    <div class="benefit-item">
+                        <i class="fas fa-heart"></i>
+                        <div>
+                            <h3>Stronger Engagement</h3>
+                            <p>Build lasting relationships with alumni through continuous engagement</p>
+                        </div>
+                    </div>
+                    <div class="benefit-item">
+                        <i class="fas fa-rocket"></i>
+                        <div>
+                            <h3>Enhanced Opportunities</h3>
+                            <p>Create pathways for mentorship, internships, and collaborations</p>
+                        </div>
+                    </div>
+                    <div class="benefit-item">
+                        <i class="fas fa-dollar-sign"></i>
+                        <div>
+                            <h3>Fundraising Potential</h3>
+                            <p>Improve donation campaigns through better alumni outreach</p>
+                        </div>
+                    </div>
+                    <div class="benefit-item">
+                        <i class="fas fa-trophy"></i>
+                        <div>
+                            <h3>Institutional Growth</h3>
+                            <p>Increase credibility and strengthen community building efforts</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="benefits-visual">
+                    <div class="stats-card">
+                        <div class="stat">
+                            <span class="stat-number">10,000+</span>
+                            <span class="stat-label">Alumni Connected</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">500+</span>
+                            <span class="stat-label">Mentorship Matches</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">95%</span>
+                            <span class="stat-label">Engagement Rate</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stakeholders Section -->
+    <section class="stakeholders-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Who Benefits</h2>
+                <p>Our platform serves multiple stakeholders in the educational ecosystem</p>
+            </div>
+            <div class="stakeholders-grid">
+                <div class="stakeholder-card">
+                    <i class="fas fa-user-graduate"></i>
+                    <h3>Alumni</h3>
+                    <p>Stay connected with alma mater and fellow graduates</p>
+                </div>
+                <div class="stakeholder-card">
+                    <i class="fas fa-user-friends"></i>
+                    <h3>Current Students</h3>
+                    <p>Access mentorship and internship opportunities</p>
+                </div>
+                <div class="stakeholder-card">
+                    <i class="fas fa-chalkboard-teacher"></i>
+                    <h3>Faculty & Staff</h3>
+                    <p>Manage alumni relationships effectively</p>
+                </div>
+                <div class="stakeholder-card">
+                    <i class="fas fa-building"></i>
+                    <h3>Institution</h3>
+                    <p>Strengthen reputation and community ties</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h2>Ready to Transform Your Alumni Relations?</h2>
+                    <p>Join institutions worldwide in building stronger alumni communities</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>contact@alumniconnect.edu</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <span>+1 (555) 123-4567</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Government of Punjab, Smart Education Initiative</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form>
+                        <div class="form-group">
+                            <input type="text" placeholder="Institution Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Email Address" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" placeholder="Phone Number" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Tell us about your alumni management needs" rows="4" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Request Demo</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <i class="fas fa-graduation-cap"></i>
+                    <span>AlumniConnect</span>
+                </div>
+                <div class="footer-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                    <a href="#">Support</a>
+                </div>
+                <div class="footer-social">
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 AlumniConnect. All rights reserved. | SIH25017 - Smart Education Initiative</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
